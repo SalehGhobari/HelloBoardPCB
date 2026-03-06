@@ -1473,6 +1473,400 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HDSP-B09G:HDSP-B09G"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DS"
+				(at -15.2527 15.2527 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "HDSP-B09G"
+				(at -15.2566 -20.3422 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "HDSP-B09G:AVAGO_HDSP-B09G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Broadcom Limited"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Display Modules - LED Character and Numeric Green 7-Segment Clock 4 Character Common Cathode 2.2V 20mA 0.752 H x 2.016 W x 0.315 D (19.10mm x 51.20mm x 8.00mm) 12-DIP (0.600, 15.24mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/HDSP-B09G/Broadcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/HDSP-B09G/Broadcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "HDSP-B09G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1797524&manufacturer=Broadcom Limited&part_name=HDSP-B09G&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "AVAGO TECHNOLOGIES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "HDSP-B09G_0_0"
+				(rectangle
+					(start -15.24 -17.78)
+					(end 17.78 15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "ANODE_E"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 10.16 0)
+					(length 5.08)
+					(name "ANODE_D"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "ANODE_DP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "ANODE_C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "ANODE_G"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "DIGIT_4_COMMON_CATHODE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "ANODE_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "DIGIT3_COMMON_CATHODE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "DIGIT2_COMMON_CATHODE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -10.16 0)
+					(length 5.08)
+					(name "ANODE_F"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -12.7 0)
+					(length 5.08)
+					(name "ANODE_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -15.24 0)
+					(length 5.08)
+					(name "DIGIT1_COMMON_CATHODE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32F1:STM32F103C8Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3515,7 +3909,7 @@
 	)
 	(rectangle
 		(start 223.52 82.55)
-		(end 284.48 128.27)
+		(end 284.48 121.92)
 		(stroke
 			(width 0)
 			(type default)
@@ -3561,6 +3955,30 @@
 		)
 		(uuid dd8d23c3-1656-4839-803a-13b02875d0c6)
 	)
+	(rectangle
+		(start 83.82 171.45)
+		(end 113.03 196.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e9337cc2-f7a7-44d7-a610-a3b7e11098e6)
+	)
+	(rectangle
+		(start 115.57 171.45)
+		(end 149.86 196.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f0c5680f-9fc4-4698-9cfd-6e55e111fb49)
+	)
 	(text "Power Circuit\nSee AMS1117-3.3 Datasheet for capacitor values\n"
 		(exclude_from_sim no)
 		(at 43.942 156.972 0)
@@ -3600,6 +4018,16 @@
 			)
 		)
 		(uuid "25d55ffe-8ca8-4215-a81e-fb6b2512e2de")
+	)
+	(text "User Button Circuit (PB13 MUST BE SET AS A PULLDOWN INPUT)\n"
+		(exclude_from_sim no)
+		(at 145.796 169.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d38d138-7aba-45b6-8970-8da62d6a58a5")
 	)
 	(text "100nF decoupling capacitor per VDD pin and a single 10uF bulk decoupling capacitor\n(See AN2586 document by STMicroelectronics)"
 		(exclude_from_sim no)
@@ -3796,6 +4224,12 @@
 		(uuid "bfe6a5d8-db91-4428-b877-2d7f6cffb3fe")
 	)
 	(junction
+		(at 233.68 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c033fc02-9239-469a-87f6-92f71ae286e1")
+	)
+	(junction
 		(at 109.22 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3864,6 +4298,16 @@
 	(no_connect
 		(at 256.54 29.21)
 		(uuid "7753752e-31cf-403e-badc-3b0f7ec5f192")
+	)
+	(wire
+		(pts
+			(xy 106.68 187.96) (xy 106.68 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014443d5-998e-49dc-9d22-fa507ea697a4")
 	)
 	(wire
 		(pts
@@ -4017,6 +4461,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 184.15) (xy 119.38 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23965b1b-7145-4910-9a55-6693d8cb370d")
+	)
+	(wire
+		(pts
 			(xy 41.91 148.59) (xy 60.96 148.59)
 		)
 		(stroke
@@ -4054,6 +4508,16 @@
 			(type default)
 		)
 		(uuid "2e074093-6083-463e-a0b6-7bd4518e15e1")
+	)
+	(wire
+		(pts
+			(xy 90.17 69.85) (xy 104.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eae0939-f4d2-4d1e-bc00-6d2547aa5c3c")
 	)
 	(wire
 		(pts
@@ -4187,6 +4651,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 185.42) (xy 125.73 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48449145-aacd-46c7-a981-1dcc5d17560a")
+	)
+	(wire
+		(pts
 			(xy 250.19 66.04) (xy 260.35 66.04)
 		)
 		(stroke
@@ -4297,7 +4771,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 97.79) (xy 104.14 97.79)
+			(xy 90.17 97.79) (xy 104.14 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4357,7 +4831,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 104.14 62.23)
+			(xy 90.17 62.23) (xy 104.14 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4374,6 +4848,16 @@
 			(type default)
 		)
 		(uuid "71266e77-25dd-4005-b1c2-63e1195b8e94")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b9323e-e400-491f-9658-12153d23b4d5")
 	)
 	(wire
 		(pts
@@ -4427,6 +4911,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 179.07) (xy 106.68 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe73b1e-d6c8-40be-8677-0f30e75bed41")
+	)
+	(wire
+		(pts
 			(xy 39.37 22.86) (xy 39.37 25.4)
 		)
 		(stroke
@@ -4464,6 +4958,16 @@
 			(type default)
 		)
 		(uuid "84bedc80-3cf1-4b41-8c37-24f1d010990f")
+	)
+	(wire
+		(pts
+			(xy 233.68 92.71) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86299d6d-a985-46ec-b9e9-4f2599b775a5")
 	)
 	(wire
 		(pts
@@ -4647,6 +5151,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 185.42) (xy 148.59 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65f9946-e383-44e5-b050-6adebfa7e025")
+	)
+	(wire
+		(pts
 			(xy 60.96 137.16) (xy 60.96 138.43)
 		)
 		(stroke
@@ -4697,7 +5211,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 95.25) (xy 104.14 95.25)
+			(xy 90.17 95.25) (xy 104.14 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4777,17 +5291,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 64.77) (xy 104.14 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8af423d-ca56-4a61-a03e-133d533e531e")
-	)
-	(wire
-		(pts
-			(xy 96.52 52.07) (xy 104.14 52.07)
+			(xy 90.17 52.07) (xy 104.14 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4857,7 +5361,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 57.15) (xy 104.14 57.15)
+			(xy 90.17 57.15) (xy 104.14 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4907,6 +5411,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 179.07) (xy 106.68 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98586a7-57d8-4106-a5d1-a7431f372155")
+	)
+	(wire
+		(pts
 			(xy 41.91 138.43) (xy 41.91 137.16)
 		)
 		(stroke
@@ -4944,6 +5458,16 @@
 			(type default)
 		)
 		(uuid "e2fdc287-0897-4dfe-8035-2340e9cca441")
+	)
+	(wire
+		(pts
+			(xy 85.09 179.07) (xy 95.25 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4720530-216c-4358-ae3d-2311a9f7872d")
 	)
 	(wire
 		(pts
@@ -5007,6 +5531,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 64.77) (xy 104.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c189c8-45f4-451e-a2bb-d387e2d33422")
+	)
+	(wire
+		(pts
 			(xy 46.99 96.52) (xy 49.53 96.52)
 		)
 		(stroke
@@ -5045,6 +5579,16 @@
 		)
 		(uuid "031cadbd-8f26-44a0-84e6-f8e59d8b3c8a")
 	)
+	(label "USER_BUTTON"
+		(at 148.59 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03fc2318-7e7b-4093-b655-87de6846f677")
+	)
 	(label "Temp_OUT"
 		(at 240.03 100.33 0)
 		(effects
@@ -5055,8 +5599,28 @@
 		)
 		(uuid "04b5818e-5a93-41a7-bb62-f873d76a4974")
 	)
+	(label "USER_LED"
+		(at 85.09 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a679bfb-6f3f-49e4-983f-a700f9a1f0f8")
+	)
+	(label "USER_BUTTON"
+		(at 90.17 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19364174-3e33-49b0-967f-6ce400faea23")
+	)
 	(label "I2C_SCL"
-		(at 96.52 95.25 0)
+		(at 90.17 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5066,7 +5630,7 @@
 		(uuid "1b4a9889-4ce8-4f36-a4a3-b6efac177587")
 	)
 	(label "BOOT0"
-		(at 96.52 57.15 0)
+		(at 90.17 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5074,6 +5638,16 @@
 			(justify left bottom)
 		)
 		(uuid "2bb768f1-1adc-403b-98b5-03c371cc2390")
+	)
+	(label "USER_LED"
+		(at 90.17 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cd60546-de4e-4808-a4a3-3601d9ba1b10")
 	)
 	(label "Temp_OUT"
 		(at 149.86 52.07 180)
@@ -5106,7 +5680,7 @@
 		(uuid "586d514e-3eaf-412d-809d-af782d8c1504")
 	)
 	(label "NRST"
-		(at 96.52 52.07 0)
+		(at 90.17 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5166,7 +5740,7 @@
 		(uuid "a0af484d-ff56-46b4-8367-58bda4a5ce82")
 	)
 	(label "I2C_SDA"
-		(at 96.52 97.79 0)
+		(at 90.17 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5176,7 +5750,7 @@
 		(uuid "b00dba94-6ea6-4a04-a1dc-ea8955deb01b")
 	)
 	(label "HSE_OUT"
-		(at 96.52 64.77 0)
+		(at 90.17 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5216,7 +5790,7 @@
 		(uuid "e8c49755-c739-4fa8-b438-77cb9a4bb0ef")
 	)
 	(label "HSE_IN"
-		(at 96.52 62.23 0)
+		(at 90.17 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5224,16 +5798,6 @@
 			(justify left bottom)
 		)
 		(uuid "f2d34046-3745-4f55-8a29-11d266970bee")
-	)
-	(label "SW_BOOT0"
-		(at 38.1 64.77 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "f529f602-b4f4-4208-abbd-37801ae507e6")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
@@ -5304,6 +5868,73 @@
 			(project ""
 				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "032613b4-1cf9-45dd-946d-dafe6b453205")
+		(property "Reference" "R5"
+			(at 101.854 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K5"
+			(at 104.394 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 108.458 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fb25957-6fb0-4e16-8c7f-e83ddca64d6e")
+		)
+		(pin "2"
+			(uuid "3d09460a-d62e-4bc4-be65-5519f3deb909")
+		)
+		(instances
+			(project "HelloBoard"
+				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5923,6 +6554,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 119.38 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2105f061-3b27-462c-93a4-ce595d1f6067")
+		(property "Reference" "#PWR024"
+			(at 119.38 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 119.38 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 119.38 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1eb8081-4605-4155-8fc0-e7c224e52f79")
+		)
+		(instances
+			(project "HelloBoard"
+				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 86.36 27.94 0)
 		(unit 1)
@@ -6319,6 +7015,71 @@
 			(project "HelloBoard"
 				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 233.68 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48ae3e3e-be3b-413d-8751-c0bf33db3208")
+		(property "Reference" "#PWR023"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 233.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0727e67c-1e80-450d-a613-b1a43af70e10")
+		)
+		(instances
+			(project "HelloBoard"
+				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7025,6 +7786,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 106.68 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7527f5fc-de6f-47fb-95af-563070327a56")
+		(property "Reference" "#PWR022"
+			(at 106.68 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d460306-d8c2-42cb-aebe-8bff060bd151")
+		)
+		(instances
+			(project "HelloBoard"
+				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 264.16 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7084,6 +7910,284 @@
 			(project "HelloBoard"
 				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HDSP-B09G:HDSP-B09G")
+		(at 252.73 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76a780dd-c23e-4d30-8e13-7afc3e94c130")
+		(property "Reference" "DS1"
+			(at 271.78 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HDSP-B09G"
+			(at 271.78 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDSP-B09G:AVAGO_HDSP-B09G"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Broadcom Limited"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Display Modules - LED Character and Numeric Green 7-Segment Clock 4 Character Common Cathode 2.2V 20mA 0.752 H x 2.016 W x 0.315 D (19.10mm x 51.20mm x 8.00mm) 12-DIP (0.600, 15.24mm)"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/HDSP-B09G/Broadcom/view-part/?ref=eda"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HDSP-B09G/Broadcom/view-part/?ref=snap"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "HDSP-B09G"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1797524&manufacturer=Broadcom Limited&part_name=HDSP-B09G&search_term=None"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "AVAGO TECHNOLOGIES"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "89949379-f6e0-4c78-8096-65de9b768c9d")
+		)
+		(pin "9"
+			(uuid "8732d684-c3f6-45b9-a519-061d20d17322")
+		)
+		(pin "12"
+			(uuid "2efa555e-0577-414c-9833-a84ff9b44f43")
+		)
+		(pin "11"
+			(uuid "503702cc-9372-4430-98c1-2dce1e684932")
+		)
+		(pin "3"
+			(uuid "960954ef-f322-4795-a488-97bbec6e5ba5")
+		)
+		(pin "10"
+			(uuid "35f77820-fd2c-461d-9855-01791760c740")
+		)
+		(pin "6"
+			(uuid "07913beb-095a-4437-8d6d-a9dafa6666b7")
+		)
+		(pin "5"
+			(uuid "9c4b48cf-c1e4-4d84-96d7-0d4a01fe97ae")
+		)
+		(pin "7"
+			(uuid "1853a3f1-694f-4d6e-b7b8-45148169ac1d")
+		)
+		(pin "1"
+			(uuid "aea5eb95-d5d9-46f9-ae94-a3caeb4e322e")
+		)
+		(pin "2"
+			(uuid "ceb29a03-1b5f-419a-a0db-2dd24078c67d")
+		)
+		(pin "4"
+			(uuid "41856264-8c82-4cc7-8cfd-a37ae5d71697")
+		)
+		(instances
+			(project ""
+				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
+					(reference "DS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 130.81 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8236ac11-5bbd-4a07-8d13-d049a370aeed")
+		(property "Reference" "SW2"
+			(at 130.81 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 130.81 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14240710-f361-4405-a251-56c464d10856")
+		)
+		(pin "2"
+			(uuid "6895bd92-2e8b-48e4-8007-af0de7a15a75")
+		)
+		(instances
+			(project ""
+				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8059,6 +9163,82 @@
 			(project "HelloBoard"
 				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 99.06 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf9d1c9d-34e6-433a-b060-450ccf8c4a8c")
+		(property "Reference" "D2"
+			(at 98.806 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 98.806 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85ed73cd-b64f-4dc8-a6d0-8097ed6fbc5a")
+		)
+		(pin "1"
+			(uuid "d06a5816-39a8-46ad-9f9c-dee701a025a8")
+		)
+		(instances
+			(project ""
+				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
+					(reference "D2")
 					(unit 1)
 				)
 			)
