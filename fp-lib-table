@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TMP235A2DCKR")(type "KiCad")(uri "${KIPRJMOD}/ExternalSymbolsAndFootprints/TMP235A2DCKR")(options "")(descr ""))
+  (lib (name "ADXL345BCCZ-RL7")(type "KiCad")(uri "${KIPRJMOD}/ExternalSymbolsAndFootprints/ADXL345BCCZ-RL7")(options "")(descr ""))
+  (lib (name "SilkScreen")(type "KiCad")(uri "${KIPRJMOD}/ExternalSymbolsAndFootprints/SilkScreen")(options "")(descr ""))
+)
