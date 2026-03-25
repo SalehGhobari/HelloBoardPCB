@@ -3,4 +3,6 @@
   (lib (name "TMP235A2DCKR")(type "KiCad")(uri "${KIPRJMOD}/ExternalSymbolsAndFootprints/TMP235A2DCKR")(options "")(descr ""))
   (lib (name "ADXL345BCCZ-RL7")(type "KiCad")(uri "${KIPRJMOD}/ExternalSymbolsAndFootprints/ADXL345BCCZ-RL7")(options "")(descr ""))
   (lib (name "SilkScreen")(type "KiCad")(uri "${KIPRJMOD}/ExternalSymbolsAndFootprints/SilkScreen")(options "")(descr ""))
+  (lib (name "LCD-16X2")(type "KiCad")(uri "${KIPRJMOD}/ExternalSymbolsAndFootprints/LCD-16X2")(options "")(descr ""))
+  (lib (name "7Segment2Digit")(type "KiCad")(uri "${KIPRJMOD}/ExternalSymbolsAndFootprints/7Segment2Digit")(options "")(descr ""))
 )
