@@ -1234,6 +1234,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x08_Top_Bottom"
 			(pin_names
 				(offset 1.016)
@@ -5797,7 +5939,7 @@
 		(uuid c1a5dbe8-d306-4072-a264-ec878bad1319)
 	)
 	(rectangle
-		(start 233.68 123.19)
+		(start 223.52 123.19)
 		(end 281.94 165.1)
 		(stroke
 			(width 0)
@@ -5940,7 +6082,7 @@
 	)
 	(text "Accelerometer/Gyrscope Circuit\n"
 		(exclude_from_sim no)
-		(at 248.666 126.746 0)
+		(at 241.046 126.746 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -6008,9 +6150,9 @@
 		)
 		(uuid "aa06432c-3e6f-40a9-bf55-b4a891a8aa71")
 	)
-	(text "TODO:\n7 Seg footprint\n74HC595 for 7 seg ?\n"
+	(text "TODO:\naccelerometer footprint and schematic\n\n\n"
 		(exclude_from_sim no)
-		(at 76.962 43.942 0)
+		(at 82.296 44.196 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6035,7 +6177,7 @@
 		(uuid "0f4044a8-4770-47a4-b21d-3d6ca9f15f03")
 	)
 	(junction
-		(at 243.84 129.54)
+		(at 236.22 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ff811b0-e003-4344-b829-7adf152ea96f")
@@ -6125,7 +6267,7 @@
 		(uuid "88dd24af-0a99-4e87-aa5a-0ae085384bef")
 	)
 	(junction
-		(at 261.62 129.54)
+		(at 254 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c705be2-f5f8-4d38-815c-1f50a979ec41")
@@ -6149,7 +6291,7 @@
 		(uuid "94741537-4242-4bc4-906e-f262fcb1ef6f")
 	)
 	(junction
-		(at 264.16 129.54)
+		(at 256.54 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a1dc001-06d8-4497-a429-2b0a0a89e310")
@@ -6303,15 +6445,11 @@
 		(uuid "5602e362-d2d8-4fc8-854d-8a8f57c1edbd")
 	)
 	(no_connect
-		(at 274.32 147.32)
-		(uuid "5c21da1c-bab6-4d63-a7f8-7f5bc34c9872")
-	)
-	(no_connect
 		(at 266.7 35.56)
 		(uuid "67dc3a94-2d9f-4faa-b693-2dd4ac2ff4df")
 	)
 	(no_connect
-		(at 256.54 132.08)
+		(at 248.92 132.08)
 		(uuid "68f82f57-b05d-4129-9459-10f9d4e704c0")
 	)
 	(no_connect
@@ -6323,15 +6461,11 @@
 		(uuid "7753752e-31cf-403e-badc-3b0f7ec5f192")
 	)
 	(no_connect
-		(at 274.32 144.78)
-		(uuid "ac0ffb46-801e-4709-9b62-e256b5c81462")
-	)
-	(no_connect
 		(at 191.77 157.48)
 		(uuid "ca1b8a17-4820-4156-929a-587bc2524667")
 	)
 	(no_connect
-		(at 266.7 157.48)
+		(at 259.08 157.48)
 		(uuid "ccb3b99b-d301-4216-a2e7-d6f6957fb570")
 	)
 	(no_connect
@@ -6710,7 +6844,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 142.24) (xy 243.84 142.24)
+			(xy 241.3 142.24) (xy 236.22 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6930,7 +7064,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 149.86) (xy 238.76 149.86)
+			(xy 241.3 149.86) (xy 231.14 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6970,7 +7104,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 144.78) (xy 248.92 144.78)
+			(xy 233.68 144.78) (xy 241.3 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7070,7 +7204,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 132.08) (xy 266.7 129.54)
+			(xy 259.08 132.08) (xy 259.08 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7080,7 +7214,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 180.34) (xy 124.46 180.34)
+			(xy 118.11 180.34) (xy 120.65 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7330,7 +7464,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 157.48) (xy 261.62 158.75)
+			(xy 254 157.48) (xy 254 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7340,7 +7474,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 129.54) (xy 264.16 129.54)
+			(xy 254 129.54) (xy 256.54 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7490,7 +7624,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 132.08) (xy 261.62 129.54)
+			(xy 254 132.08) (xy 254 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7510,7 +7644,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 129.54) (xy 238.76 149.86)
+			(xy 231.14 129.54) (xy 231.14 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7520,7 +7654,17 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 128.27) (xy 264.16 129.54)
+			(xy 266.7 144.78) (xy 270.51 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d7d0a6-1428-4864-9647-62d1a2e75422")
+	)
+	(wire
+		(pts
+			(xy 256.54 128.27) (xy 256.54 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7820,13 +7964,23 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 129.54) (xy 243.84 142.24)
+			(xy 236.22 129.54) (xy 236.22 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "932d4139-e35e-4bea-94b9-5435179dd3f0")
+	)
+	(wire
+		(pts
+			(xy 266.7 147.32) (xy 270.51 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ef5793-af71-41b8-b15a-ed4c407cef0c")
 	)
 	(wire
 		(pts
@@ -8040,7 +8194,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 180.34) (xy 135.89 180.34)
+			(xy 130.81 180.34) (xy 135.89 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8080,7 +8234,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 147.32) (xy 248.92 147.32)
+			(xy 233.68 147.32) (xy 241.3 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8520,7 +8674,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 129.54) (xy 243.84 129.54)
+			(xy 231.14 129.54) (xy 236.22 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8670,7 +8824,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 129.54) (xy 261.62 129.54)
+			(xy 236.22 129.54) (xy 254 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8790,7 +8944,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 129.54) (xy 266.7 129.54)
+			(xy 256.54 129.54) (xy 259.08 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9018,8 +9172,18 @@
 		)
 		(uuid "1b4a9889-4ce8-4f36-a4a3-b6efac177587")
 	)
+	(label "NODE_USER_BUTTON"
+		(at 132.08 180.34 270)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b514e95-a949-4ddd-87cb-26af83d2e8a9")
+	)
 	(label "I2C_SCL"
-		(at 241.3 147.32 0)
+		(at 233.68 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9168,6 +9332,16 @@
 		)
 		(uuid "35a011fe-278a-47df-938f-01168f9b5637")
 	)
+	(label "USER_LED_K"
+		(at 105.41 179.07 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dc940b0-6daf-4ad5-b9ce-0e3f3556ba06")
+	)
 	(label "PB_1"
 		(at 90.17 82.55 0)
 		(effects
@@ -9262,7 +9436,7 @@
 		(at 58.42 137.16 0)
 		(effects
 			(font
-				(size 0.635 0.635)
+				(size 0.762 0.762)
 			)
 			(justify left bottom)
 		)
@@ -9619,7 +9793,7 @@
 		(uuid "eeb495a4-acee-43d0-ba08-7ca01bd5d04b")
 	)
 	(label "I2C_SDA"
-		(at 241.3 144.78 0)
+		(at 233.68 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10633,7 +10807,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 264.16 128.27 0)
+		(at 256.54 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10641,7 +10815,7 @@
 		(dnp no)
 		(uuid "2c5ad730-4ddc-427d-ab2d-99e8e47385f1")
 		(property "Reference" "#PWR028"
-			(at 264.16 132.08 0)
+			(at 256.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +10824,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 264.16 124.46 0)
+			(at 256.54 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 128.27 0)
+			(at 256.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10667,7 +10841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 128.27 0)
+			(at 256.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,7 +10850,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 264.16 128.27 0)
+			(at 256.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11094,7 +11268,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Motion:ADXL343")
-		(at 261.62 144.78 0)
+		(at 254 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11103,7 +11277,7 @@
 		(fields_autoplaced yes)
 		(uuid "4326502f-79dd-48ef-9503-cbde3dad5db0")
 		(property "Reference" "U4"
-			(at 276.86 138.3598 0)
+			(at 269.24 138.3598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11111,7 +11285,7 @@
 			)
 		)
 		(property "Value" "ADXL343"
-			(at 276.86 140.8998 0)
+			(at 269.24 140.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11119,7 +11293,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y"
-			(at 261.62 144.78 0)
+			(at 254 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11128,7 +11302,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf"
-			(at 261.62 144.78 0)
+			(at 254 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11137,7 +11311,7 @@
 			)
 		)
 		(property "Description" "3-Axis MEMS Accelerometer, 2/4/8/16g range, I2C/SPI, LGA-14"
-			(at 261.62 144.78 0)
+			(at 254 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12415,32 +12589,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 129.54 180.34 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 275.59 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8236ac11-5bbd-4a07-8d13-d049a370aeed")
-		(property "Reference" "SW2"
-			(at 129.54 172.72 0)
+		(uuid "7e3a4e0d-14ea-4372-a3f0-183ce677167d")
+		(property "Reference" "J5"
+			(at 268.478 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 129.54 175.26 0)
+		(property "Value" "Conn_01x02"
+			(at 268.478 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
-			(at 129.54 175.26 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 275.59 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12449,7 +12625,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 175.26 0)
+			(at 275.59 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 275.59 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e89ab781-19dd-40d2-abbf-88f6aca7edd3")
+		)
+		(pin "2"
+			(uuid "d0ef5b36-93ef-4df2-88d5-547d471dd918")
+		)
+		(instances
+			(project "HelloBoard"
+				(path "/cf96e162-1373-4f44-9021-65e26b8c8300"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 125.73 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8236ac11-5bbd-4a07-8d13-d049a370aeed")
+		(property "Reference" "SW2"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12458,7 +12701,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 129.54 180.34 0)
+			(at 125.73 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13687,7 +13930,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 158.75 0)
+		(at 254 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13695,7 +13938,7 @@
 		(dnp no)
 		(uuid "c6240d90-5ba9-41f9-9616-bdeb127f58b3")
 		(property "Reference" "#PWR027"
-			(at 261.62 165.1 0)
+			(at 254 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13704,7 +13947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 162.814 0)
+			(at 254 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13712,7 +13955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 158.75 0)
+			(at 254 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13721,7 +13964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 158.75 0)
+			(at 254 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13730,7 +13973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 158.75 0)
+			(at 254 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
