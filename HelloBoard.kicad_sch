@@ -5951,8 +5951,8 @@
 		(uuid ced780b6-58be-48c9-8825-375ec5d131a0)
 	)
 	(rectangle
-		(start 142.24 111.76)
-		(end 220.98 163.83)
+		(start 142.24 110.49)
+		(end 222.25 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -6000,7 +6000,7 @@
 	)
 	(rectangle
 		(start 181.61 78.74)
-		(end 222.25 110.49)
+		(end 222.25 109.22)
 		(stroke
 			(width 0)
 			(type default)
@@ -7684,7 +7684,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 144.78) (xy 270.51 144.78)
+			(xy 266.7 144.78) (xy 274.32 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8024,7 +8024,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 147.32) (xy 270.51 147.32)
+			(xy 266.7 147.32) (xy 274.32 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9462,6 +9462,16 @@
 		)
 		(uuid "4edf1d52-1f5d-458a-8869-6d3ecfab21bd")
 	)
+	(label "ADXL_INT2"
+		(at 270.51 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53eecb5a-75f7-490b-8b59-abb213dfdbf3")
+	)
 	(label "BOOT0"
 		(at 53.34 64.77 0)
 		(effects
@@ -9683,12 +9693,12 @@
 		(uuid "a31f966b-dd67-4015-98ae-3192c2c2180b")
 	)
 	(label "F"
-		(at 167.64 113.03 0)
+		(at 167.64 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a4cac8e6-f5d0-446c-bc46-affc56bf70ca")
 	)
@@ -9821,6 +9831,16 @@
 			(justify left bottom)
 		)
 		(uuid "ca7ea34a-f66f-472a-b7da-25f8cf5c318e")
+	)
+	(label "ADXL_INT1"
+		(at 270.51 144.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cabdc83b-4ee3-412d-9948-67fbaac22bda")
 	)
 	(label "I2C_SCL"
 		(at 35.56 179.07 0)
@@ -11501,10 +11521,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4326502f-79dd-48ef-9503-cbde3dad5db0")
 		(property "Reference" "U4"
-			(at 269.24 138.3598 0)
+			(at 264.922 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11512,7 +11531,7 @@
 			)
 		)
 		(property "Value" "ADXL343"
-			(at 269.24 140.8998 0)
+			(at 264.922 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12951,7 +12970,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 275.59 144.78 0)
+		(at 279.4 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12959,7 +12978,7 @@
 		(dnp no)
 		(uuid "7e3a4e0d-14ea-4372-a3f0-183ce677167d")
 		(property "Reference" "J5"
-			(at 268.478 152.654 0)
+			(at 269.494 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12968,7 +12987,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 268.478 155.194 0)
+			(at 269.494 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12977,7 +12996,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 275.59 144.78 0)
+			(at 279.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +13005,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 144.78 0)
+			(at 279.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12995,7 +13014,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 144.78 0)
+			(at 279.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
