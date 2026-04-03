@@ -5951,7 +5951,7 @@
 		(uuid ced780b6-58be-48c9-8825-375ec5d131a0)
 	)
 	(rectangle
-		(start 142.24 110.49)
+		(start 140.97 110.49)
 		(end 222.25 163.83)
 		(stroke
 			(width 0)
@@ -6040,7 +6040,7 @@
 		)
 		(uuid "1b8bd13f-08a2-47c2-91b5-44128668b096")
 	)
-	(text "USB Circuit\n(See AN4879 by STMicroelectronics\nfor the Pull-Up resistor value)\n(note 2 in table 4 page 3)"
+	(text "USB Circuit\n"
 		(exclude_from_sim no)
 		(at 263.906 45.466 0)
 		(effects
@@ -6150,16 +6150,6 @@
 		)
 		(uuid "aa06432c-3e6f-40a9-bf55-b4a891a8aa71")
 	)
-	(text "TODO:\naccelerometer footprint and schematic\n\n\n"
-		(exclude_from_sim no)
-		(at 82.296 44.196 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "da6803a5-413a-41d5-9e1f-05ea824eeb5f")
-	)
 	(text "I2C Circuit\n"
 		(exclude_from_sim no)
 		(at 18.796 165.354 0)
@@ -6175,12 +6165,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f4044a8-4770-47a4-b21d-3d6ca9f15f03")
-	)
-	(junction
-		(at 236.22 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ff811b0-e003-4344-b829-7adf152ea96f")
 	)
 	(junction
 		(at 233.68 41.91)
@@ -6241,6 +6225,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d4cc068-706e-439a-bf4d-ac24fce296c9")
+	)
+	(junction
+		(at 231.14 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64f0aa07-5941-4b2b-ac50-e6143db1d441")
 	)
 	(junction
 		(at 30.48 148.59)
@@ -6375,6 +6365,12 @@
 		(uuid "c033fc02-9239-469a-87f6-92f71ae286e1")
 	)
 	(junction
+		(at 121.92 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c476645d-d6cd-4dd0-8f70-22c3231fb1f9")
+	)
+	(junction
 		(at 109.22 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6397,12 +6393,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2164ee9-1adb-45f8-8825-1ff26b1f281c")
-	)
-	(junction
-		(at 123.19 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5c57256-03e8-42d2-91ef-5b15902b9cb1")
 	)
 	(junction
 		(at 161.29 29.21)
@@ -6764,6 +6754,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 142.24) (xy 231.14 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1864fc49-86f4-4893-9804-f103788a618d")
+	)
+	(wire
+		(pts
 			(xy 35.56 114.3) (xy 35.56 115.57)
 		)
 		(stroke
@@ -6851,16 +6851,6 @@
 			(type default)
 		)
 		(uuid "23e6a5a9-a18e-4649-91cb-6d69f263d2de")
-	)
-	(wire
-		(pts
-			(xy 241.3 142.24) (xy 236.22 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d80663-4418-42fb-a20c-014d9ec9b137")
 	)
 	(wire
 		(pts
@@ -6984,7 +6974,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 128.27) (xy 123.19 128.27)
+			(xy 121.92 128.27) (xy 124.46 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7674,16 +7664,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 129.54) (xy 231.14 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71d20a6b-72fa-4f31-b959-14938759bc01")
-	)
-	(wire
-		(pts
 			(xy 266.7 144.78) (xy 274.32 144.78)
 		)
 		(stroke
@@ -7954,6 +7934,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 129.54) (xy 231.14 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89df95b0-e8e7-40db-baac-8e5a566e3416")
+	)
+	(wire
+		(pts
 			(xy 186.69 119.38) (xy 186.69 118.11)
 		)
 		(stroke
@@ -8011,16 +8001,6 @@
 			(type default)
 		)
 		(uuid "913de565-d512-4f7e-a69b-e8facfde1b1b")
-	)
-	(wire
-		(pts
-			(xy 236.22 129.54) (xy 236.22 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "932d4139-e35e-4bea-94b9-5435179dd3f0")
 	)
 	(wire
 		(pts
@@ -8091,6 +8071,16 @@
 			(type default)
 		)
 		(uuid "98d2f2c1-cdfe-4af4-b852-4425a52bf42e")
+	)
+	(wire
+		(pts
+			(xy 231.14 142.24) (xy 241.3 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99361400-ead8-4c54-8da4-51382b5ead3a")
 	)
 	(wire
 		(pts
@@ -8724,16 +8714,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 129.54) (xy 236.22 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7c2485e-5142-4fe3-95f7-47f04b037ed6")
-	)
-	(wire
-		(pts
 			(xy 86.36 34.29) (xy 97.79 34.29)
 		)
 		(stroke
@@ -8884,7 +8864,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 129.54) (xy 254 129.54)
+			(xy 231.14 129.54) (xy 254 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8901,16 +8881,6 @@
 			(type default)
 		)
 		(uuid "e4720530-216c-4358-ae3d-2311a9f7872d")
-	)
-	(wire
-		(pts
-			(xy 123.19 128.27) (xy 124.46 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5fff11c-2625-4ac8-ae38-70ee97d755d3")
 	)
 	(wire
 		(pts
@@ -8931,6 +8901,16 @@
 			(type default)
 		)
 		(uuid "ea3f4e8b-9773-408d-a471-3ce9444dff1b")
+	)
+	(wire
+		(pts
+			(xy 121.92 129.54) (xy 121.92 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf3b49e-f72c-40f6-8336-ba7d525ed397")
 	)
 	(wire
 		(pts
@@ -10175,7 +10155,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 128.27 0)
+		(at 121.92 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10183,7 +10163,7 @@
 		(dnp no)
 		(uuid "0466015a-4ae2-4def-9763-df87063bdc2a")
 		(property "Reference" "#PWR01"
-			(at 123.19 134.62 0)
+			(at 121.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10192,7 +10172,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 132.334 0)
+			(at 121.92 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 128.27 0)
+			(at 121.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,7 +10189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 128.27 0)
+			(at 121.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,7 +10198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 128.27 0)
+			(at 121.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +10298,7 @@
 		(dnp no)
 		(uuid "1003943f-9c4a-4578-a693-863208f411ac")
 		(property "Reference" "U1"
-			(at 125.984 124.714 0)
+			(at 103.124 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10307,7 @@
 			)
 		)
 		(property "Value" "STM32F103C8T6"
-			(at 125.984 127.254 0)
+			(at 103.124 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
