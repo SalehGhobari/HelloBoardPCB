@@ -2422,7 +2422,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D2"
-			(at 0 -1.43 0)
+			(at 2.46 -0.02 0)
 			(layer "F.SilkS")
 			(uuid "17a0d96d-8bff-4080-be33-627d93074367")
 			(effects
@@ -2627,7 +2627,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at 0 -1.43 0)
+			(at 2.43 0.03 0)
 			(layer "F.SilkS")
 			(uuid "2cfc402e-64f8-4c10-95c3-03112cfd85ea")
 			(effects
@@ -12437,6 +12437,32 @@
 		(at 119.61 93.65 0)
 		(layer "F.SilkS")
 		(uuid "375bd559-538a-4602-a817-9a70c38cb9d7")
+		(effects
+			(font
+				(size 1 0.65)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "USER LED"
+		(at 123.65 50.09 0)
+		(layer "F.SilkS")
+		(uuid "a33a14c2-99fe-4559-832d-0d8b00b9ad4a")
+		(effects
+			(font
+				(size 1 0.65)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "POWER LED"
+		(at 123.65 56.4 0)
+		(layer "F.SilkS")
+		(uuid "3b8be815-2769-45f5-97d2-e708887e74da")
 		(effects
 			(font
 				(size 1 0.65)
